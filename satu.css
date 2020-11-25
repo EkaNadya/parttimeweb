@@ -1,0 +1,362 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* buka header */
+header{
+    background-color: rgb(3, 3, 37);
+    color: white;
+    padding: 10px;
+    height: 10vh;
+}
+
+header .logo {
+    padding-left: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+.nav{
+margin-top: -35px;
+}
+
+ul li{
+    display: inline-block;
+    float: right;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 4, 102);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+ul li a:hover{
+background-color: blanchedalmond;
+color: black;
+}
+/* tutup header */
+
+/* main */
+.satu{
+    background: url(yg.jpg);
+    background-size: cover;
+    max-width: 1349px;
+    max-height: 600px;
+}
+
+.dua{
+    color: white;
+    padding-top: 200px;
+}
+
+.dua h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dua h2{
+    font-size: 35px;
+    margin-left: 480px;
+    border-bottom: 3px solid blanchedalmond;
+    padding-bottom: 10px;
+    margin-right: 520px;
+    text-align: center;
+}
+
+.cu{
+    margin-left: 580px;
+    margin-top: 50px;
+}
+
+.cu a{
+    text-decoration:none ;
+    color:  rgb(4, 4, 102);
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+
+}
+
+.cu a:hover{
+    background-color: rgb(4, 4, 102);
+    color: blanchedalmond;
+}
+
+/* kotak */
+.kotak{
+    margin-top: 200px;
+}
+
+.judul h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    background-color: white;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    padding: 10px 20px;
+    margin-left: 430px;
+    margin-right: 430px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+
+.kotak .kotak1{
+    background-color: white;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-right: 420px;
+    margin-left: 420px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.kotak .kotak1 h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 5px;
+}
+
+.kotak .kotak2{
+    background-color: white;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-right: 420px;
+    margin-left: 420px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.kotak .kotak2 h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 5px;
+}
+
+.kotak .kotak3{
+    background-color: white;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-right: 420px;
+    margin-left: 420px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.kotak .kotak3 h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 5px;
+}
+/* tutup kotak */
+
+/* jasa */
+.jasabnr{
+    margin-top: 670px;
+}
+
+.jasabnr h1{
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 50px;
+}
+
+.jasa ul li{
+    float: left;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+    padding: 10px 20px;
+    border-bottom: 3px solid black;
+    margin-bottom: 50px;
+    margin-left: 120px;
+}
+/* tutup jasa */
+/* tutup main */
+
+/* footer */
+footer{ 
+    background-color: rgb(3, 3, 37);
+    color: white;
+    margin-top: 300px;
+}
+
+footer h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+   
+/* tutup footer */
+
+/* tablet */
+@media screen and (max-width: 768px){
+    .dua{
+        padding-top: 150px;
+    }
+
+    .dua h2{
+    font-size: 29px;
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+
+    .dua h1{
+        font-size: 30px;
+    }
+
+    .cu{
+        margin-left: 250px;
+    }
+
+    .judul h1{
+        font-size: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 300px;
+    }
+
+    .kotak .kotak1{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .kotak .kotak2{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .kotak .kotak3{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .jasabnr h1{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .jasa ul li{
+    margin-left: 90px;
+    font-size: 25px;
+    }
+
+    .jasa .yy{
+        margin-left: 120px;
+    }
+    
+}
+/* tutup tablet */
+
+/* hp */
+@media screen and (max-width: 576px){
+    header .logo{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .nav{
+        margin-top: -25px;
+    }
+
+    .nav ul li a{
+        margin-right: 10px;
+        padding-left: 10px 15px;
+    }
+
+    .dua h2{
+        font-size: 25;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .dua h1{
+        font-size: 28px;
+    }
+
+    .cu{
+        margin-left: 170px;
+    }
+
+    .judul h1{
+        font-size: 27px;
+    }
+
+    .kotak .kotak1{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .kotak .kotak1 h2{
+        font-size: 25px;
+    }
+
+    .kotak .kotak2{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .kotak .kotak2 h2{
+        font-size: 25px;
+    }
+
+    .kotak .kotak3{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .kotak .kotak3 h2{
+        font-size: 25px;
+    }
+
+    .jasabnr h1{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 30px;
+    }
+
+    .jasa ul li{
+        margin-left: 60px;
+        font-size: 20px;
+    }
+
+    .jasa .yy{
+        margin-left: 85px;
+    }
+}
+/* hp */

@@ -1,0 +1,53 @@
+.contact-form{
+    padding: 60px 550px;
+    font-size: 20px;
+    background: url(yg.jpg);
+    background-size: cover;
+        width: 240px;
+        height: 700px;
+        text-align: center;
+        
+    }
+    
+    .contact-form .section-title{
+        font-size: 20px;
+        color: cornsilk;
+        
+        padding: 20px 20px;
+        margin-left: 40px;
+        text-align: center;
+        margin-top: 150px;
+      
+      
+    }
+    
+    .contact-form p {
+        color:  cornsilk ;
+        width: 400px;
+        padding: 10px 5px;
+        font-size: 17px;
+        margin-bottom: 5px ;  
+        text-align: left;
+        margin-left: 43px;
+    }
+    
+    input,textarea{
+        border: 3px solid salmon;
+        height: 35px;
+        width: 300px;
+        font-size: 17px;
+        border-radius: 5px;
+        text-align: left;
+        margin-left: 40px;
+    }
+        
+    .submit-contact{
+        background-color:  salmon;
+        color: black;
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 140px;
+    }
